@@ -135,3 +135,103 @@ skills{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.21) ;
 }
+/*resume section styles*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/*.resume hr{
+    margin:30px 5px*/
+/* .resume hr {
+    margin: 0;
+    align-self: center;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.resume-comlumn {
+    flex: 1;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    gap: 0
+    
+}
+.experience {
+    padding: 0px;
+    box-sizing: border-box;
+} */
+/* Resume Container */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+/* Each Column */
+.resume-comlumn {
+  flex: 1;
+  display: grid;
+  grid-template-rows: repeat(6, auto); /* 3 experiences + 3 hr */
+  padding: 0 0; /* Optional: you may set padding if you want spacing inside column */
+}
+
+/* Column Titles (My Education / My Experience) */
+.resume-column-title {
+  padding-left: 16px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Experience Blocks */
+.experience {
+  padding: 12px 16px;
+  margin-bottom: 4px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Experience Title */
+.experience-title {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* Subtitle */
+.experience-sub-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #757575;
+}
+
+/* Description */
+.experience-description {
+  color: #757575;
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+/* HR Styling */
+.resume hr {
+  margin: 8px 0;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Download CV Button spacing (if any) */
+.resume-download-cv {
+  margin-top: 50px;
+}
+.section-title{
+    font-size: 40px;
+}
